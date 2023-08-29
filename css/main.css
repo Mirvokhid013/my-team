@@ -443,4 +443,56 @@ body {
   color: #fff;
   background-color: transparent;
   opacity: 0.25;
+}
+
+.hero {
+  background-image: url("../images/hero-bg.svg");
+  background-position: top -198px center;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+  padding-bottom: 250px;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title {
+  width: 620px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+
+.hero__title-span {
+  color: #f67e7e;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 79px;
+  width: 445px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero__text::before {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+  content: "";
 }/*# sourceMappingURL=main.css.map */
