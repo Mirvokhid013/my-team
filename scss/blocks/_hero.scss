@@ -1,6 +1,6 @@
 .hero {
     background-image: url("../images/hero-bg.svg");
-    background-position: top -198px center;
+    background-position: top -194px center;
     background-repeat: no-repeat;
     padding-top: 56px;
     padding-bottom: 250px;
@@ -33,7 +33,6 @@
 
 .hero__text::before {
     display: inline-block;
-    @include title-text-null;
     width: 50px;
     height: 4px;
     background-color: #79c8c7;

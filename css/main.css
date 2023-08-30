@@ -447,7 +447,7 @@ body {
 
 .hero {
   background-image: url("../images/hero-bg.svg");
-  background-position: top -198px center;
+  background-position: top -194px center;
   background-repeat: no-repeat;
   padding-top: 56px;
   padding-bottom: 250px;
@@ -489,10 +489,109 @@ body {
 
 .hero__text::before {
   display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
   width: 50px;
   height: 4px;
   background-color: #79c8c7;
   content: "";
+}
+
+.site-main__service {
+  padding-top: 140px;
+  padding-bottom: 130px;
+  background-image: url("../../images/service-bg.svg");
+  background-position: top -10px center;
+  background-repeat: no-repeat;
+}
+
+.service__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 54px;
+}
+
+.service__wrapper::before {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+  content: "";
+}
+
+.service__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service__title-wrapper {
+  width: 445px;
+}
+
+.service__title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 54px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.service__list {
+  width: 540px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.service__item {
+  display: flex;
+  -moz-column-gap: 23px;
+       column-gap: 23px;
+  margin-bottom: 32px;
+}
+
+.service__item::before {
+  background-image: url("../../images/service1.svg");
+  width: 72px;
+  height: 72px;
+  content: "";
+}
+
+.service__item:nth-child(2):before {
+  background-image: url("../../images/service2.svg");
+}
+
+.service__item:nth-child(3):before {
+  background-image: url("../../images/service3.svg");
+}
+
+.service__item:last-child {
+  margin-bottom: 0;
+}
+
+.subitem {
+  width: 445px;
+}
+
+.subitem__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 16px;
+  color: #f67e7e;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.subitem__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
 }/*# sourceMappingURL=main.css.map */
