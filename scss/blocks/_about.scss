@@ -1,0 +1,37 @@
+.site-main__about {
+    padding-top: 47px;
+    padding-bottom: 120px;
+    background-image: url("../../images/Group\ 20.svg");
+    background-repeat: no-repeat;
+    background-position: top -194px center;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.about__title {
+    @include title-text-null;
+    color: var(--main-text-color);
+    @include fonts(700, 64px, 100px);
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 730px;
+    @include title-text-null;
+    color: var(--main-text-color);
+    @include fonts(600, 18px, 28px);
+}
+
+.about__text::before {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #f67e7e;
+    content: "";
+}

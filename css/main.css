@@ -369,8 +369,8 @@ body {
 }
 
 .site-header {
-  padding-top: 73px;
-  padding-bottom: 73px;
+  padding-top: 77px;
+  padding-bottom: 77px;
   background-color: #014e56;
 }
 
@@ -594,4 +594,48 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
+}
+
+.site-main__about {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  background-image: url("../../images/Group 20.svg");
+  background-repeat: no-repeat;
+  background-position: top -194px center;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.about__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 730px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.about__text::before {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+  content: "";
 }/*# sourceMappingURL=main.css.map */
