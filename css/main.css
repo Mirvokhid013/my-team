@@ -638,4 +638,99 @@ body {
   height: 4px;
   background-color: #f67e7e;
   content: "";
+}
+
+.site-main__directors {
+  background-image: url("../../images/Group 8 Copy + Group 8 Mask.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 140px;
+  padding-bottom: 168px;
+}
+
+.directors__title {
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.directors__list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 76px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 253px;
+  padding: 32px 24px 56px;
+  background-color: #012f34;
+}
+
+.card::after {
+  position: absolute;
+  bottom: -27px;
+  width: 54px;
+  height: 54px;
+  background-image: url("../../images/Combined Shape.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  background-color: #f67e7e;
+  content: "";
+  border-radius: 50%;
+}
+
+.card:last-child:after {
+  background-image: url("../../images/Combined Shape (1).svg");
+  background-color: #79c8c7;
+  content: "";
+}
+
+.card__img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 16px;
+}
+
+.card__name {
+  color: #79c8c7;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.card__span {
+  color: var(--main-text-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.card__text {
+  padding: 0 24px;
+  color: var(--main-text-color);
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
 }/*# sourceMappingURL=main.css.map */
